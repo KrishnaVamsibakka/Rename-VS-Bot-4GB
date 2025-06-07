@@ -128,7 +128,7 @@ async def cp2(bot,update):
 
 
 
-# RESET POWER MODE @JISHUDEVELOPER
+# RESET POWER MODE @Vamsi_2008_vamsi
 @Client.on_callback_query(filters.regex('dft'))
 async def dft(bot,update):
     id = update.message.reply_to_message.text.split("/resetpower")
@@ -138,7 +138,7 @@ async def dft(bot,update):
     usertype(int(user_id),"🆓 Free")
     addpre(int(user_id))
     await update.message.edit("Daily Data Limit Has Been Reset Successfully.\n\nThis Account Has Default 2GB Remaining Capacity")
-    await bot.send_message(user_id, f"Hey {update.from_user.mention} \n\nYour Daily Data Limit Has Been Reset Successfully. Check Your Plan Here /myplan\n\n<b>Contact Admin :</b> @MadflixOfficials")
+    await bot.send_message(user_id, f"Hey {update.from_user.mention} \n\nYour Daily Data Limit Has Been Reset Successfully. Check Your Plan Here /myplan\n\n<b>Contact Admin :</b> @Vamsi_2008_vamsi")
 
 
 
