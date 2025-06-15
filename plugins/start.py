@@ -33,7 +33,7 @@ async def start(client, message):
     await asyncio.sleep(2)
     await loading_sticker_message.delete()
     
-    text = f"""Hello {message.from_user.mention} \n\n➻ This Is An Advanced And Yet Powerful Rename Bot.\n\n➻ Using This Bot You Can Rename And Change Thumbnail Of Your Files.\n\n➻ You Can Also Convert Video To File Aɴᴅ File To Video.\n\n➻ This Bot Also Supports Custom Thumbnail And Custom Caption.\n\n<b>Bot Is Made By @Cartoonworldtelugu_india</b>"""
+    text = f"""Hello {message.from_user.mention} \n\n➻ This Is An Advanced And Yet Powerful Rename Bot.\n\n➻ Using This Bot You Can Rename And Change Thumbnail Of Your Files.\n\n➻ You Can Also Convert Video To File Aɴᴅ File To Video.\n\n➻ This Bot Also Supports Custom Thumbnail And Custom Caption.\n\n"""
     
     button = InlineKeyboardMarkup([
         [InlineKeyboardButton("📢 Updates", url="https://t.me/Cartoonworldtelugu_india"),
@@ -129,7 +129,7 @@ async def send_doc(client, message):
                     total_rename(int(botid), prrename)
                     total_size(int(botid), prsize, file.file_size)
                 else:
-                    uploadlimit(message.from_user.id, 2147483648)
+                    uploadlimit(message.from_user.id, 6828129421)
                     usertype(message.from_user.id, "Free")
 
                     await message.reply_text(f'Your Plan Expired On {buy_date}', quote=True)
@@ -141,7 +141,7 @@ async def send_doc(client, message):
             if buy_date:
                 pre_check = check_expi(buy_date)
                 if pre_check == False:
-                    uploadlimit(message.from_user.id, 2147483648)
+                    uploadlimit(message.from_user.id, 6828129421)
                     usertype(message.from_user.id, "Free")
             
             filesize = humanize.naturalsize(file.file_size)
