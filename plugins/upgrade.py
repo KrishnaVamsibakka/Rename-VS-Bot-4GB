@@ -19,18 +19,18 @@ Daily Upload limit 50GB
 Price Rs 99  ind /🌎 1.19$  per Month
 
 **💎 Pro**
-Daily Upload limit 100GB
+Daily Upload limit 200GB
 Price Rs 179  ind /🌎 2.16$  per Month
 
 Payment Details :-
-<b>➜ UPI ID :</b> <code>madflixofficial@axl</code>
-<b>➜ PayPal :</b> <a href='https://www.paypal.me/jishudeveloper'>Click Here</a>
-<b>➜ QR Code :</b> <a href='https://telegra.ph/QR-Payment-07-24-4'>Click Here</a>
+<b>➜ UPI ID :</b> <code></code>
+<b>➜ PayPal :</b> <a href=''>Click Here</a>
+<b>➜ QR Code :</b> <a href=''>Click Here</a>
 
-After Payment Send Screenshots Of Payment To Admin @MadflixOfficials"""
+After Payment Send Screenshots Of Payment To Admin @vamsi_2008_vamsi"""
     
     keybord = InlineKeyboardMarkup([
-        [InlineKeyboardButton("🦋 Admin", url = "https://t.me/calladminrobot"),
+        [InlineKeyboardButton("🦋 Admin", url = "https://t.me/Vamsi_2008_vamsi"),
         InlineKeyboardButton("✖️ Cancel", callback_data="cancel")]
         ])
     
@@ -53,18 +53,18 @@ Daily Upload limit 50GB
 Price Rs 99  ind /🌎 1.19$  per Month
 
 **💎 Pro**
-Daily Upload limit 100GB
+Daily Upload limit 200GB
 Price Rs 179  ind /🌎 2.16$  per Month
 
 Payment Details :-
-<b>➜ UPI ID :</b> <code>madflixofficial@axl</code>
-<b>➜ PayPal :</b> <a href='https://www.paypal.me/jishudeveloper'>Click Here</a>
-<b>➜ QR Code :</b> <a href='https://telegra.ph/QR-Payment-07-24-4'>Click Here</a>
+<b>➜ UPI ID :</b> <code></code>
+<b>➜ PayPal :</b> <a href=''>Click Here</a>
+<b>➜ QR Code :</b> <a href=''>Click Here</a>
 
-After Payment Send Screenshots Of Payment To Admin @MadflixOfficials"""
+After Payment Send Screenshots Of Payment To Admin @Vamsi_2008_vamsi"""
     
     keybord = InlineKeyboardMarkup([
-        [InlineKeyboardButton("🦋 Admin", url = "https://t.me/calladminrobot"),
+        [InlineKeyboardButton("🦋 Admin", url = "https://t.me/Vamsi_2008_vamsi"),
         InlineKeyboardButton("✖️ Cancel", callback_data="cancel")]
         ])
     
