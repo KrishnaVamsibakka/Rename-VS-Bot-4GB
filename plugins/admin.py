@@ -58,13 +58,13 @@ async def resetpower(bot, message):
     
     
 
-# PREMIUM POWER MODE @JISHUDEVELOPER
+# PREMIUM POWER MODE @Vamsi_2008_vamsi
 @Client.on_callback_query(filters.regex('vip1'))
 async def vip1(bot,update):
     id = update.message.reply_to_message.text.split("/addpremium")
     user_id = id[1].replace(" ", "")
     inlimit  = 21474836500
-    uploadlimit(int(user_id),21474836500)
+    uploadlimit(int(user_id), 6828129421)
     usertype(int(user_id),"🪙 Basic")
     addpre(int(user_id))
     await update.message.edit("Added Successfully To Premium Upload Limit 20 GB")
@@ -77,7 +77,7 @@ async def vip2(bot,update):
     id = update.message.reply_to_message.text.split("/addpremium")
     user_id = id[1].replace(" ", "")
     inlimit = 53687091200
-    uploadlimit(int(user_id), 53687091200)
+    uploadlimit(int(user_id), 6828129421)
     usertype(int(user_id),"⚡ Standard")
     addpre(int(user_id))
     await update.message.edit("Added Successfully To Premium Upload Limit 50 GB")
@@ -90,7 +90,7 @@ async def vip3(bot,update):
     id = update.message.reply_to_message.text.split("/addpremium")
     user_id = id[1].replace(" ", "")
     inlimit = 107374182400
-    uploadlimit(int(user_id), 107374182400)
+    uploadlimit(int(user_id), 6828129421)
     usertype(int(user_id),"💎 Pro")
     addpre(int(user_id))
     await update.message.edit("Added Successfully To Premium Upload Limit 100 GB")
@@ -106,7 +106,7 @@ async def cp1(bot,update):
     id = update.message.reply_to_message.text.split("/ceasepower")
     user_id = id[1].replace(" ", "")
     inlimit  = 2147483652
-    uploadlimit(int(user_id), 2147483652)
+    uploadlimit(int(user_id), 6828129421)
     usertype(int(user_id),"⚠️ Account Downgraded")
     addpre(int(user_id))
     await update.message.edit("Added Successfully To Upload Limit 2GB")
@@ -123,7 +123,7 @@ async def cp2(bot,update):
     usertype(int(user_id),"⚠️ Account Downgraded")
     addpre(int(user_id))
     await update.message.edit("Added Successfully To Upload Limit 0GB")
-    await bot.send_message(user_id, f"Hey {update.from_user.mention} \n\nYou Are Downgraded To Cease <b>Limit 0GB</b>. Check Your Plan Here /myplan \n\n<b>Contact Admin :</b> @MadflixOfficials")
+    await bot.send_message(user_id, f"Hey {update.from_user.mention} \n\nYou Are Downgraded To Cease <b>Limit 0GB</b>. Check Your Plan Here /myplan \n\n<b>Contact Admin :</b> @Vamsi_2008_vamsi")
 
 
 
@@ -134,7 +134,7 @@ async def dft(bot,update):
     id = update.message.reply_to_message.text.split("/resetpower")
     user_id = id[1].replace(" ", "")
     inlimit = 2147483652
-    uploadlimit(int(user_id), 2147483652)
+    uploadlimit(int(user_id), 6828129421)
     usertype(int(user_id),"🆓 Free")
     addpre(int(user_id))
     await update.message.edit("Daily Data Limit Has Been Reset Successfully.\n\nThis Account Has Default 2GB Remaining Capacity")
@@ -145,8 +145,8 @@ async def dft(bot,update):
 
 
 
-# Jishu Developer 
+# Vamsi
 # Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Back-Up Channel @JishuBotz
-# Developer @JishuDeveloper & @MadflixOfficials
+# Telegram Channel @Cartoonworldtelugu_india
+# Back-Up Channel @Pokemonallseasonsintelugu
+# Developer @Vamsi_2008_vamsi
