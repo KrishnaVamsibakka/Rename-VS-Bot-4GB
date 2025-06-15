@@ -110,7 +110,7 @@ async def cp1(bot,update):
     usertype(int(user_id),"⚠️ Account Downgraded")
     addpre(int(user_id))
     await update.message.edit("Added Successfully To Upload Limit 2GB")
-    await bot.send_message(user_id, f"Hey {update.from_user.mention} \n\nYou Are Downgraded To Cease <b>Limit 2GB</b>. Check Your Plan Here /myplan \n\n<b>Contact Admin :</b> @MadflixOfficials")
+    await bot.send_message(user_id, f"Hey {update.from_user.mention} \n\nYou Are Downgraded To Cease <b>Limit 2GB</b>. Check Your Plan Here /myplan \n\n<b>Contact Admin :</b> @Vamsi_2008_vamsi")
 
 
 
