@@ -34,7 +34,7 @@ async def start(client, message):
     if ends:
         pre_check = check_expi(ends)
         if pre_check == False:
-            uploadlimit(message.from_user.id, 2147483652)
+            uploadlimit(message.from_user.id, 6828129421)
             usertype(message.from_user.id, "Free")
     if ends == None:
         text = f"<b>User ID :</b> <code>{message.from_user.id}</code> \n<b>Name :</b> {message.from_user.mention} \n\n<b>🏷 Plan :</b> {user} \n\n✓ Upload 2GB Files \n✓ Daily Upload : {humanbytes(limit)} \n✓ Today Used : {humanbytes(used)} \n✓ Remain : {humanbytes(remain)} \n✓ Timeout : 2 Minutes \n✓ Parallel process : Unlimited \n✓ Time Gap : Yes \n\n<b>Validity :</b> Lifetime"
@@ -51,8 +51,8 @@ async def start(client, message):
 
 
 
-# Jishu Developer 
+# Vamsi
 # Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Back-Up Channel @JishuBotz
-# Developer @JishuDeveloper & @MadflixOfficials
+# Telegram Channel @Cartoonworldtelugu_india
+# Back-Up Channel @Pokemonallseasonsintelugu
+# Developer @Vamsi_2008_vamsi & @Cartoonworldtelugu_india
